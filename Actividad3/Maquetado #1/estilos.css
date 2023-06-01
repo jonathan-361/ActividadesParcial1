@@ -1,0 +1,157 @@
+body{
+	background-image: linear-gradient(#636162, #b1afaf);
+	height: 105vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+
+main{
+	background-color: white;
+	height: auto;
+	width: 670px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+aside{
+	background-color: #fbb03b;
+	width: 220px;
+	height: 100%;
+	float: left;
+}
+
+article{
+	width: 450px;
+	float: left;
+}
+
+.perfil{
+	height: 180px;
+	width: 180px;
+	background-color: #ddd;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	border: 10px solid #fbb03b;
+	box-shadow: 6px 2px #fbb03b;
+}
+
+.perfil img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.caja-1{
+	position: relative;
+}
+
+.cabecera-1{
+	background-color: #4d4d4d;
+	padding: 10px;
+	color: #fbb03b;
+	text-align: left;
+	padding-left: 20px;
+	margin-right: -15px;
+}
+
+.cabecera-1::after{
+	content: '';
+	position: absolute;
+	width: 21px;
+	height: 18px;
+	background-color: #5a5959;
+	left: 191px;
+	top: 26px;
+	transform: rotate(56deg);
+	z-index: -1;
+}
+
+.p1{
+	display: inline-block;
+	padding: 9px 10px;
+	font-size: 11px;
+}
+
+.p2{
+	padding: 9px 10px;
+	font-size: 11px;
+}
+
+.icon_numero{
+	width: 15px;
+	height: 25px;
+	font-size: 16px!important;
+	padding-right: 10!important;
+	vertical-align: sub;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.icon_email{
+	width: 25px;
+	height: 15px;
+	margin-left: 5px;
+}
+
+.facebook, .twitter, .linkdin{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 20px;
+	padding: 86px 0px 10px 55px;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-right: 8px;
+}
+
+h2{
+	font-size: 16px;
+	padding: 0px 0px 30px 55px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.cabecera-2{
+	font-size: 15px;
+}
+
+.p3{
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+
+section{
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+
+.lista_articulo{
+	list-style: square;
+}
+
+/*
+Escuela: Universidad Técnologica Metropolitana
+	Maestro: Diego Ivan May Tuz
+	Actividad: Actividad 3 - Maquetado 1
+	Alumno: Jonathan Alexander López Uc
+	Cuatrimestre: 3°
+	Grupo: A
+	Parcial: 1
+*/
